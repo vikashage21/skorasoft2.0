@@ -14,7 +14,7 @@ dotenv.config()
 // CORS
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://resilient-cactus-044d54.netlify.app/",
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   })
